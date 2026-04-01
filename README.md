@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>ThreadShare - My Clothing Market</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; }
-        .card { border: 1px solid #ddd; padding: 20px; width: 200px; margin: auto; }
-        button { background: #0070f3; color: white; border: none; padding: 10px 20px; border-radius: 5px; }
-    </style>
+    <meta charset="UTF-8">
+    <title>ThreadShare | My Clothing Market</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Welcome to ThreadShare</h1>
-    <p>Post your clothes. Get reviews. Sell fast.</p>
-
-    <div class="card">
-        <img src="https://via.placeholder.com/150" alt="Clothes">
-        <h3>Vintage Denim</h3>
-        <p>$45.00</p>
-        <button>Buy Now</button>
+<body class="bg-gray-100 p-10 text-center">
+    <h1 class="text-4xl font-bold text-blue-600 mb-4">ThreadShare</h1>
+    <p class="text-lg text-gray-700">The marketplace is loading...</p>
+    <div class="mt-10 p-6 bg-white rounded-lg shadow-md max-w-sm mx-auto">
+        <h3 class="font-bold">Admin Notice</h3>
+        <p>Your repository is now connected! Time to add the posting form.</p>
     </div>
 </body>
 </html>
